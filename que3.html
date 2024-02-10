@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+ 
+    <!-- // 3.Write a JavaScript program to find which number is greter in 4 numbers
+     using nested if else. (using simple function) :- -->
+
+     <!-- TAKE NOTHING RETURN NOTHING -->
+
+  <script type="text/JavaScript">
+     
+
+        function Maximum() 
+        {
+
+            var a=parseInt(prompt(`Enter a number :- `));
+            var b=parseInt(prompt(`Enter b number :- `));
+            var c=parseInt(prompt(`Enter c number :- `));
+            var d=parseInt(prompt(`Enter d number :- `));
+
+            if (a > b) 
+            {
+                if (a > c) 
+                {
+                    if (a > d) 
+                    {
+                        document.write(`A is Max...`);
+                    } 
+                    else
+                    {
+                        document.write(`D is Max...`);
+                    }
+                }
+                else 
+                {
+                    if (c < d) 
+                    {
+                        document.write(`C is Max...`);
+                    } 
+                    else 
+                    {
+                        document.write(`A is Max...`);
+                    }
+                }
+            } 
+            else 
+            {
+                if (b > c) 
+                {
+                        if (b>d) 
+                        {
+                            document.write(`B is Max...`);
+                        } 
+                        else 
+                        {
+                            document.write(`D is Max...`);
+                        }
+                    } 
+                    else
+                    {
+                        if (c > d) 
+                        {
+                            document.write(`C is Max...`);
+                        } 
+                        else
+                        {
+                            document.write(`D is Max...`);
+                        }
+                    }
+            }
+        }
+
+        Maximum();
+    </script>
+</body>
+</html>
